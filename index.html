@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="HTML5 Frontend Developer Challenge - Krzysztof Koscielniak">
+    <meta name="viewport" content="width=device-width">
+    <title>HTML5 CSS3 Simple Login Form Example</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/rwd.css">
+    <link rel="stylesheet" media="print" href="css/print.css">
+    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  </head>
+<!--<script type="text/javascript" src="http://localhost:5100/styler.js"></script>-->
+  <body>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+      
+    <header>
+      <hgroup class="wrapper">
+        <h1>HTML5 CSS3 :p Challenge</h1>
+      </hgroup>
+    </header>
+    
+    <aside class="genErr">
+      <div class="btnErr">
+        <input type="checkbox" id="make404" />
+        <label for="make404">Make some server error</label>
+      </div>
+      <span>ER</span>
+    </aside>
+    
+    <section>
+      
+      <form id="login" class="wrapper">
+        
+        <!-- Empty inputs message -->
+        <div id="form-message" class="warning hidden">
+          <p>Please fill all form fields</p>
+        </div>
+
+        <!-- connection error message -->
+        <div id="connection-message" class="warning hidden">
+          <p>Connection error</p>
+        </div>
+
+        <!-- no js error message -->
+        <noscript>
+          <div class="noJs warning">
+            <p>Please enable JavaScript to enhance the power of internet browsing</p>
+          </div>
+        </noscript>
+        
+        <div class="submitInfo"></div>
+        
+        <div class="btnUser">
+          <label for="username">Name</label>
+          <input type="text" placeholder="What’s your name" id="username" required="" />
+          <span class="errorMsg">Bad name - please type 'ksh'</span>
+        </div>
+        <div class="btnPass">
+          <label for="password">Password</label>
+          <input type="password" placeholder="Password" id="password" required="" />
+          <span class="errorMsg">Bad password - please type 'ksh'</span>
+        </div>
+        <div class="btnShow">
+          <input type="checkbox" id="showPassword" />
+          <label for="showPassword">Display password</label>
+        </div>
+        <div class="btnSubmit">
+          <input type="submit" id="btn-submit" value="Log in" />
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <cite class="wrapper">
+        <h2>ksh '13</h2>
+      </cite>
+    </footer>
+    
+    <!--[if lt IE 7]>
+        <div class="chromeframe warning">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</div>
+    <![endif]-->
+      
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+    
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

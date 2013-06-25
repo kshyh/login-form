@@ -1,0 +1,138 @@
+/*
+ *
+ * Responsive web design styles
+ *
+ */
+@media only screen and (max-width: 260px) {
+  body,
+  header,
+  footer,
+  .genErr {
+    min-width: 200px;
+  }
+  header h1 {
+    line-height: normal !important;
+    font-size: 1em !important;
+  }
+  .genErr label {
+    font-size: 1em !important;
+  }
+  .genErr span {
+    padding: 10px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 70px 0 30px;
+  }
+  header {
+    height: 50px;
+  }
+  header h1 {
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.3em;
+  }
+  .genErr {
+    top: 50px;
+  }
+  .genErr span {
+    padding: 10px 20px;
+  }
+  .wrapper {
+    width: 100%;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  form div {
+    width: 100%;
+    margin: 0 0 15px;
+  }
+  .btnShow input {
+    margin: 6px 0 0;
+  }
+  .btnShow label {
+    margin: 0 0 0 -27px;
+    padding: 6px 0 0 33px;
+  }
+  .warning {
+    position: fixed;
+    height: 96%;
+    width: 96%;
+    margin: 2%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    -webkit-box-shadow: 0 0 10px 2px #000;
+    box-shadow: 0 0 10px 2px #000;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.9);
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    box-align: stretch;
+
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+  }
+  .warning p {
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    box-flex: 0;
+
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    box-ordinal-group: 1;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .warning {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    -webkit-box-shadow: 0 0 10px 2px #000;
+    box-shadow: 0 0 10px 2px #000;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.9);
+  }
+  .warning p {
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 30px;
+  font-family: 'OpenSemibold', Helvetica, Helvetica Neue, Arial;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1139px) {
+  .wrapper {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  .wrapper {
+    width: 1026px;
+    margin: 0 auto;
+  }
+}
