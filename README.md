@@ -5,6 +5,6 @@ Simple login form with HTML5 validation. It used jQuery validation for old brows
 You can emulate some server error for viewing warning message.
 
 
-Live demo at http://kshyh.pl/demo/loginForm/
+Live demo at http://kshyh.pl/demo/login-form/
 
 Enjoy!
