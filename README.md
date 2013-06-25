@@ -1,4 +1,4 @@
-loginForm
+login-form
 =========
 
 Simple login form with HTML5 validation. It used jQuery validation for old browsers that don't support HTML5. 
