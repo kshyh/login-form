@@ -88,7 +88,7 @@ $('#login').submit(function() {
       }, success: function() {
           $('#login').html("<div class='success'></div>");
           $('.success').html("<h2>Thank You!</h2>")
-          .append("<p><a href='http'>Send some comment</a></p>")
+          .append("<p>:)</p>")
           .hide()
           .fadeIn(1500);
         }
